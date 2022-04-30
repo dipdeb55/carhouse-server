@@ -1,0 +1,96 @@
+https://i.ibb.co/4WwHtp2/philipp-katzenberger-Y8-H19u-Sx-Y-unsplash-1.jpg
+https://i.ibb.co/fSN9Pk9/rodan-can-6cq-JPe-TIuls-unsplash-1.jpg
+https://i.ibb.co/7Xr2cBj/olav-tvedt-yq-ef-MJMu-Pg-unsplash.jpg
+https://i.ibb.co/KKFKgyx/remy-lovesy-sy-Y2g-TJMBkg-unsplash.jpg
+https://i.ibb.co/rfdjwJJ/tyler-clemmensen-4g-Sav-S9pe1s-unsplash.jpg
+https://i.ibb.co/pRyCGtH/david-barros-A5-NY2r-B2o-YY-unsplash.jpg
+https://i.ibb.co/T1gyN6r/miles-loewen-a0-SRj-Vsk7-Jg-unsplash.jpg
+https://i.ibb.co/1LvLzs9/remy-lovesy-a-Ox-FFN9-I3-LY-unsplash.jpg
+https://i.ibb.co/pjNMbCW/calvin-kinateder-qtt-ICknp-GAU-unsplash.jpg
+https://i.ibb.co/MZ6Q9Cg/peter-chirkov-s-Iwx-WB70nqc-unsplash-1.jpg
+
+
+[{
+  "name": "Audi R8",
+  "image": "http://dummyimage.com/180x100.png/dddddd/000000",
+  "description": "With a fuel consumption of 6.6 litres/100km - 43 mpg UK - 36 mpg US (Average), 0 to 100 km/h (62mph) in 8.4 seconds, a maximum top speed of 139 mph (224 km/h), a curb weight of 3704 lbs (1680 kgs), the A6 (C7) Avant 2.0 TFSI has a turbocharged Inline 4 cylinder engine, Petrol motor",
+  " quantity": 15,
+  "supplierName": "Yvette Maddams",
+  "price": "$62000",
+  "sold": 7
+}, {
+  "name": "Mustang Gt",
+  "image": "http://dummyimage.com/245x100.png/cc0000/ffffff",
+  "description": "With a maximum top speed of 151 mph (243 km/h), the Mustang 5 Bullitt has a naturally-aspirated V 8 cylinder engine, Petrol motor.
+This engine produces a maximum power of 319 PS (315 bhp - 235 kW) at 6000 rpm and a maximum torque of 440.0 Nm (324 lb.ft) at 6000 rpm.",
+  " quantity": 5,
+  "supplierName": "Lew Maven",
+  "price": "$59000",
+  "sold": 1
+}, {
+  "name": "PT Cruiser",
+  "image": "http://dummyimage.com/214x100.png/cc0000/ffffff",
+  "description": "With a fuel consumption of 8.9 litres/100km - 32 mpg UK - 26 mpg US (Average), 0 to 100 km/h (62mph) in 5.9 seconds, a maximum top speed of 155 mph (250 km/h), a curb weight of 4564 lbs (2070 kgs), the Q8 55 TFSI Quattro has a turbocharged V 6 cylinder engine, Petrol motor.",
+  " quantity": 9,
+  "supplierName": "Aretha Fatkin",
+  "price": "$37000",
+  "sold": 1
+}, {
+  "name": "Veracruz",
+  "image": "http://dummyimage.com/236x100.png/5fa2dd/ffffff",
+  "description": "With a fuel consumption of 8.2 litres/100km - 34 mpg UK - 29 mpg US (Average), 0 to 100 km/h (62mph) in 3.7 seconds, a maximum top speed of 155 mph (250 km/h), a curb weight of 3340 lbs (1515 kgs), the TT (8S) Coupe RS has a turbocharged Inline 5 cylinder engine, Petrol motor.",
+  " quantity": 15,
+  "supplierName": "Duff Floodgate",
+  "price": "$30000",
+  "sold": 10
+}, {
+  "name": " Audi A7",
+  "image": "http://dummyimage.com/169x100.png/5fa2dd/ffffff",
+  "description": "With a maximum top speed of 151 mph (243 km/h), the Mustang 5 Bullitt has a naturally-aspirated V 8 cylinder engine, Petrol motor.
+This engine produces a maximum power of 319 PS (315 bhp - 235 kW) at 6000 rpm and a maximum torque of 440.0 Nm (324 lb.ft) at 6000 rpm. ",
+  " quantity": 8,
+  "supplierName": "Antonius Harower",
+  "price": "$76000",
+  "sold": 2
+}, {
+  "name": "FJ Cruiser",
+  "image": "http://dummyimage.com/238x100.png/dddddd/000000",
+  "description": "With a maximum top speed of 92 mph (148 km/h), a curb weight of 1709 lbs (775 kgs), the Fiesta 2 1600 Diesel has a naturally-aspirated - 4 cylinder engine, Diesel motor.",
+  " quantity": 5,
+  "supplierName": "Marcy Kuscha",
+  "price": "$35000",
+  "sold": 7
+}, {
+  "name": "7 Series",
+  "image": "http://dummyimage.com/173x100.png/5fa2dd/ffffff",
+  "description": "With a curb weight of 2458 lbs (1115 kgs), the Celica TA6 2.0 has a naturally-aspirated - 4 cylinder engine, Petrol motor.
+This engine produces a maximum power of 120 PS (118 bhp - 88 kW) at 5800 rpm and a maximum torque of 155 Nm (114 lb.ft) at 4800 rpm.",
+  " quantity": 1,
+  "supplierName": "Marabel Pehrsson",
+  "price": "$72000",
+  "sold": 6
+}, {
+  "name": "Bmw S",
+  "image": "http://dummyimage.com/106x100.png/dddddd/000000",
+  "description": "With a fuel consumption of 9.6 litres/100km - 29 mpg UK - 25 mpg US (Average), 0 to 100 km/h (62mph) in 8.9 seconds, a maximum top speed of 133 mph (214 km/h), a curb weight of 3263 lbs (1480 kgs), the 800 Coupe 827 i has a naturally-aspirated V 6 cylinder",
+  " quantity": 5,
+  "supplierName": "Antin Gossan",
+  "price": "$49999",
+  "sold": 1
+}, {
+  "name": "CR-V",
+  "image": "http://dummyimage.com/250x100.png/5fa2dd/ffffff",
+  "description": "With a fuel consumption of 9.6 litres/100km - 29 mpg UK - 25 mpg US (Average), 0 to 100 km/h (62mph) in 8.9 seconds, a maximum top speed of 133 mph (214 km/h), a curb weight of 3263 lbs (1480 kgs), the 800 Coupe 827 i has a naturally-aspirated V 6 cylinder",
+  " quantity": 7,
+  "supplierName": "Nanine Scraney",
+  "price": "$85999",
+  "sold": 7
+}, {
+  "name": "Corvette",
+  "image": "http://dummyimage.com/172x100.png/ff4444/ffffff",
+  "description": "Shotgun discharge, undetermined intent",
+  " quantity": 8,
+  "supplierName": "Ruddie Petegrew",
+  "price": "$69000",
+  "sold": 1
+}]
