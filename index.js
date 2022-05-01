@@ -1,5 +1,6 @@
 const express = require('express');
-const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
+const { MongoClient, ServerApiVersion } = require('mongodb');
+const ObjectId = require('mongodb').ObjectId;
 const cors = require('cors');
 const app = express();
 const port = process.env.PORT || 5000;
@@ -30,6 +31,27 @@ async function run() {
             const query = { _id: ObjectId(id) };
             const result = await carCollection.findOne(query);
             res.send(result);
+        });
+
+        app.put('/cars/:id', async (req, res) => {
+            const id = req.params.id;
+            const newQuantity = req.body;
+            const filter = { _id: ObjectId(id) };
+            const option = { upsert: true };
+            const updatedDoc = {
+                $set: {
+                    quantity: newQuantity[0].quantity,
+                },
+            }
+            const result = await carCollection.updateOne(filter, updatedDoc, option)
+            res.send(result)
+        });
+
+        app.delete('/cars/:id', async (req, res) => {
+            const id = req.params.id;
+            const query = { _id: ObjectId(id) };
+            const result = await carCollection.deleteOne(query);
+            res.send(result)
         })
     }
     finally {
