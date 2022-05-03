@@ -5,6 +5,7 @@ const cors = require('cors');
 const app = express();
 const port = process.env.PORT || 5000;
 
+require('dotenv').config();
 // DB_PASSWORD=rkYcBBmeI1fAX03K
 
 app.use(cors());
@@ -51,6 +52,7 @@ async function run() {
                 },
             }
             const result = await carCollection.updateOne(filter, updatedDoc, options)
+            console.log(filter)
             res.send(result)
         });
 
