@@ -16,10 +16,10 @@ https://i.ibb.co/j65xjhk/aaron-huber-8q-YE6-LGHW-c-unsplash.jpg
   "name": "Audi R8",
   "image": "http://dummyimage.com/180x100.png/dddddd/000000",
   "description": "With a fuel consumption of 6.6 litres/100km - 43 mpg UK - 36 mpg US (Average), 0 to 100 km/h (62mph) in 8.4 seconds, a maximum top speed of 139 mph (224 km/h), a curb weight of 3704 lbs (1680 kgs), the A6 (C7) Avant 2.0 TFSI has a turbocharged Inline 4 cylinder engine, Petrol motor",
-  " quantity": 15,
+  "quantity": "15",
   "supplierName": "Yvette Maddams",
   "price": "$62000",
-  "sold": 7
+  "sold": "7"
 }, {
   "name": "Mustang Gt",
   "image": "http://dummyimage.com/245x100.png/cc0000/ffffff",
