@@ -13,7 +13,8 @@ app.use(cors());
 app.use(express.json());
 
 
-const uri = `mongodb+srv://deep:PhnCF0OuymW8hZxv@cluster0.ncmem.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
+// const uri = `mongodb+srv://DB_USER:DB_PASS@cluster0.ncmem.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
+const uri = `mongodb+srv://deep:qTvgrz1igsMmhpCW@cluster0.ncmem.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
 const client = new MongoClient(uri, { useNewUrlParser: true, useUnifiedTopology: true, serverApi: ServerApiVersion.v1 });
 
 async function run() {
@@ -28,12 +29,12 @@ async function run() {
             res.send(cars)
         })
 
-        app.get('/myitems', async (req, res) => {
+        app.get('/cars/myitems', async (req, res) => {
             const email = req.query.email;
             const query = { email: email };
             const cursor = carCollection.find(query);
-            const cars = await cursor.toArray();
-            res.send(cars)
+            const result = await cursor.toArray();
+            res.send(result)
         })
 
         app.get('/cars/:id', async (req, res) => {
@@ -52,12 +53,13 @@ async function run() {
 
         app.put('/cars/:id', async (req, res) => {
             const id = req.params.id;
-            const updateduUser = req.body;
+            const updatedUser = req.body;
+            console.log(updatedUser)
             const filter = { _id: ObjectId(id) };
             const option = { upsert: true };
             const updatedDoc = {
                 $set: {
-                    quantity: updateduUser.updateQuantity,
+                    quantity: updatedUser.quantity,
                 },
             }
             const result = await carCollection.updateOne(filter, updatedDoc, option)
